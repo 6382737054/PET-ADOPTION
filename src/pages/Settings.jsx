@@ -29,10 +29,10 @@ const Settings = () => {
   };
 
   const handleSave = () => {
-    // Save updated settings to localStorage
+    
     localStorage.setItem('userSettings', JSON.stringify(userSettings));
     alert('Settings saved successfully!');
-    navigate('/profile'); // Redirect to profile page after saving
+    navigate('/profile'); 
   };
 
   return (

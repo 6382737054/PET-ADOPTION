@@ -8,7 +8,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // For now, simply navigate to the home page
+ 
     navigate('/');
   };
 

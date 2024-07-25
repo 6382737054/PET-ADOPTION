@@ -1,10 +1,10 @@
 import { useState } from 'react';
 
 const featuredPets = [
-  // Sample pet data
+
   { id: 1, name: 'Bella', breed: 'Labrador', image: '/path/to/image1.jpg' },
   { id: 2, name: 'Lucy', breed: 'Bulldog', image: '/path/to/image2.jpg' },
-  // Add more pets
+  
 ];
 
 const FeaturedPets = () => {

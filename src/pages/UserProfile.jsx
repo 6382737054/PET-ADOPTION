@@ -9,7 +9,7 @@ const UserProfile = () => {
   });
 
   useEffect(() => {
-    // Load user settings from localStorage or API
+
     const storedUser = JSON.parse(localStorage.getItem('userSettings')) || {
       email: 'example@example.com',
       phone: '123-456-7890',

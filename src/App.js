@@ -8,7 +8,7 @@ import UserProfile from './pages/UserProfile';
 import AdminPanel from './pages/AdminPanel';
 import Community from './pages/Community';
 import Settings from './pages/Settings';
-import Login from './pages/Login';  // Import Login page
+import Login from './pages/Login';
 
 function App() {
   return (
