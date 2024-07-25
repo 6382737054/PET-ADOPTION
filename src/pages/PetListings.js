@@ -23,7 +23,7 @@ const pets = [
     description: 'Playful and curious with striking blue eyes.',
     image: '/images/luna.jpg',
   },
-  // Add more pets as needed
+
 ];
 
 const PetListings = () => {

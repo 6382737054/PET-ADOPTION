@@ -4,11 +4,11 @@ import { Link } from 'react-router-dom';
 const Home = () => {
   return (
     <div className="bg-gray-50 min-h-screen">
-      {/* Hero Section */}
+      {}
       <section className="relative bg-gradient-to-r from-blue-500 to-teal-500 text-white">
         <div className="absolute inset-0 flex items-center justify-center">
           <img
-            src="/images/pets.jpg" // Local image path
+            src="/images/pets.jpg" 
             alt="Hero"
             className="object-cover w-full h-full opacity-50"
           />
@@ -21,14 +21,14 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Featured Pets */}
+      {}
       <section className="py-16 px-6 lg:px-16 bg-white">
         <div className="container mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8">Featured Pets</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
-                src="/images/bella.jpg" // Local image path
+                src="/images/bella.jpg" 
                 alt="Bella"
                 className="w-full h-48 object-cover"
               />
@@ -40,7 +40,7 @@ const Home = () => {
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
-                src="/images/max.jpg" // Local image path
+                src="/images/max.jpg" 
                 alt="Max"
                 className="w-full h-48 object-cover"
               />
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300">
               <img
-                src="/images/luna.jpg" // Local image path
+                src="/images/luna.jpg" 
                 alt="Luna"
                 className="w-full h-48 object-cover"
               />
@@ -66,14 +66,14 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Call to Action */}
+      {}
       <section className="py-16 px-6 lg:px-16 bg-gradient-to-r from-teal-500 to-blue-500 text-white text-center">
         <h2 className="text-4xl font-bold mb-4">Join Our Community</h2>
         <p className="text-lg mb-6">Connect with other pet lovers, share stories, and participate in community events.</p>
         <Link to="/community" className="bg-yellow-400 text-black px-6 py-3 rounded-full text-xl font-semibold hover:bg-yellow-500 transition">Join Now</Link>
       </section>
 
-      {/* Single Footer */}
+      {}
       <footer className="bg-gray-800 text-white py-4 text-center">
         <p>&copy; 2024 Pet Adoption Platform. All rights reserved.</p>
       </footer>
