@@ -10,9 +10,9 @@ import Community from './pages/Community';
 import Settings from './pages/Settings';
 import Login from './pages/Login';
 
-function App() {
+const App = () => {
   return (
-    <Router>
+    <Router basename="/PET-ADOPTION">
       <div className="flex flex-col min-h-screen">
         <Header />
         <main className="flex-grow">
@@ -24,7 +24,7 @@ function App() {
             <Route path="/admin" element={<AdminPanel />} />
             <Route path="/community" element={<Community />} />
             <Route path="/settings" element={<Settings />} />
-            <Route path="/login" element={<Login />} /> {/* Add this line */}
+            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
       </div>
